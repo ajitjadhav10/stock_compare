@@ -28,7 +28,7 @@ def download_model(model_url, model_filename):
 # Streamlit app
 def main():
     st.sidebar.title('Stock Price Forecasting App')
-    st.sidebar.markdown('Copyright by Rajdeep Sarkar')
+    st.sidebar.markdown('By Hedged Capital')
 
     # User input for stock ticker symbol
     stock_symbol = st.sidebar.text_input('Enter Stock Ticker Symbol (e.g., MSFT):')

@@ -87,7 +87,7 @@ def main():
             st.plotly_chart(volume_fig)
 
             # Load trained model based on selection
-            if selected_model == "Neural Network":
+            if selected_model == "KNN":
                 model_url = "https://github.com/rajdeepUWE/stock_market_forecast/raw/master/KNN_model.h5"
                 model_filename = "KNN_model.h5"
             elif selected_model == "Random Forest":
